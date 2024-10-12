@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            <!-- Font Awesome -->
+    <!---<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">--->
+    <title>Loja</title>
+</head>
+<body>
+    <header><!-----Início do cabeçalho----->
+        <nav class="navbar navbar-expand-sm navbar-light " style="background-color: #E1262D">
+          <div class="container">
+            <a href="#"class="navbar-brand">
+                <img src="./img/logo.jpg" width="350">
+            </a>
+            <dl id="texto_padrao">
+                <dd id="texto_perso_00">
+                  A Loja da Familia
+                </dd>
+
+                <dd>
+                  Utilidades para seu lar em até 12X sem juros
+                </dd>
+                <dd>
+                  + de 37 Lojas.
+                </dd>
+              </dl>
+            <!---<button class="navbar-toggler" data-toggle="collapse" data-target="nav-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>---->
+            <div class="collapse navbar-collapse" id="nav-principal"  >
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a href="#" class="nav-link" style="color: white">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./promocoes.html" style="color: white">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./produtos.html" style="color: white">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./lojas.html" style="color: white">Lojas</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contato.html" style="color: white">contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          </div>
+    
+        </nav>
+      </header><!----fim do cabeçalho------>
+      <section id="home"><!---Início da seção Home--->
+        <br>
+        <div class="container"><!--container-->
+<!-----------------------Carroussel------------------------------------------>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./img/1.fws.gif" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/2.fws.gif" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/2.fws.gif" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+
+  <!---seção carousell-->
+
+      <!---fim-da-seção carousell-->
+<!------------------Fim-----Carroussel------------------------------------------>
+<!----------------início-------Cards------------------------------------------>
+
+<div class="card" id="cards" style="width: 18rem; margin: 41px;">
+  <img class="card-img-top" src="./img/carrossel_01.png" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Taça de cristal</h5>
+    <p class="card-text" >R$ 11,99</p>
+    <a href="https://www.facebook.com/akitembembarato.portal/photos/pb.100054576185168.-2207520000/526767481099301/?type=3"  style="background-color: #333389" class="btn btn-primary">Ver</a>
+  </div>
+</div>
+<div class="card" id="cards" style="width: 18rem; margin: 41px;">
+  <img class="card-img-top" src="./img/carrossel_02.jpg" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Carrinho de feira</h5>
+    <p class="card-text" >R$ 34,99</p>
+    <a href="https://www.facebook.com/akitembembarato.portal/photos/pb.100054576185168.-2207520000/531918980584151/?type=3"  style="background-color: #333389" class="btn btn-primary">Ver</a>
+  </div>
+</div>
+<div class="card" id="cards" style="width: 18rem; margin: 41px;">
+  <img class="card-img-top" src="./img/carrossel_01.png" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Taça de cristal</h5>
+    <p class="card-text" >R$ 11,99</p>
+    <a href="https://www.facebook.com/akitembembarato.portal/photos/pb.100054576185168.-2207520000/526767481099301/?type=3"  style="background-color: #333389" class="btn btn-primary">Ver</a>
+  </div>
+</div>
+  
+  
+<!----------------Fim-------Cards------------------------------------------>
+<!--------------------seção-textos------------------------------------>
+
+      </div><!--container-->
+      </section><!---Fim da seção da home--->
+      <footer class="footer">
+  
+        <div class="container">
+        
+          <div class="row">
+            
+            <div class="col-md-6 col-lg-4">
+              
+              <div class="footer-newsletter">
+                
+                <h3>Newsletter</h3>
+                <form class="form" id="newsletterForm" method="post">
+                  <input class="campo" name="name" placeholder="Nome" required="">
+                  <input class="campo" name="email" type="email" placeholder="E-mail" required="">
+                  <button type="submit" class="btn" style="color: white;">Assinar</button>
+                </form>
+      
+              </div>
+      
+            </div><!--Coluna 3-->
+      
+          </div><!--row-->
+      
+        </div><!--container-->
+      
+        <div class="container">
+          <div class="footer-contact">
+            <div class="row align-items-center">
+              
+      
+              <div class="col-md-6">
+                <h4>E-mail</h4>
+                <p>aki_tem@bembarato.com.br</p>
+              </div>
+              
+              <div class="col-md-6">
+              
+                <h4>Redes Sociais</h4>
+                <a href="https://maps.google.com/maps?cid=5705477096578714964"><i class="fas fa-map-marker-alt"></i></a>
+                <a href="https://www.facebook.com/akitembembarato.portal/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/akitembembarato/"><i class="fab fa-instagram"></i></a>
+                <a href="https://local.google.com/place?id=5705477096578714964&use=srp#fpstate=lie"><i class="fab fa-google"></i></a>
+              
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      
+        <div class="copyright">
+          <div class="container">
+          
+            <div class="row align-items-center">
+              
+              <div class="col-md-6">
+                <div class="copy-text">
+                  <p>&copy; Aki Tem Bem barato - Todos os Direitos Reservados.</p>
+                  <br>
+                  <p>Feito com ❤️ por: <a href="https://linktr.ee/lucas.007"> Lucas Eduardo Rosolem</a></p>
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <div class="copy-menu">
+                  <a href="./docs/termos.pdf">Termos de Uso</a>
+                  <a href="./docs/privacidade.pdf">Privacidade</a>
+                  <a href="./produtos.html">Produtos</a>
+                </div>
+              </div>
+            
+            </div>
+          
+          </div><!--container-->
+        </div><!--copyright-->
+      
+      </footer>
+      <script>
+        document.getElementById('newsletterForm').addEventListener('submit', async function(event) {
+          event.preventDefault(); // Impede o envio tradicional do formulário
+      
+          // Captura os valores do formulário
+          const formData = {
+            name: document.querySelector('input[name="name"]').value,
+            email: document.querySelector('input[name="email"]').value
+          };
+      
+          try {
+            // Envia os dados para a função serverless
+            const response = await fetch('./js/submit-newsletter', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(formData),
+            });
+      
+            if (response.ok) {
+              // Exibe o alert de sucesso se a requisição foi bem-sucedida
+              alert('Você foi cadastrado com sucesso na newsletter!');
+            } else {
+              throw new Error('Erro ao enviar os dados');
+            }
+          } catch (error) {
+            console.error(error);
+            alert('Ocorreu um erro. Tente novamente mais tarde.');
+          }
+        });
+      </script>
+</body>
+</html>
