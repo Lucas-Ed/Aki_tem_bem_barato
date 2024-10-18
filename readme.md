@@ -53,7 +53,7 @@ O Projeto é uma segunda versão do [site](https://www.akitembembarato.com/lojas
 
 ## Deploy do projeto
 
-Confira [aqui.](https://akibembarato.netlify.app)
+Confira [aqui.](https://akitembembarato.netlify.app)
 ---
 ## :memo: Licença
 
