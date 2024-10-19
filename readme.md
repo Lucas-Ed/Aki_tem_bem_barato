@@ -14,7 +14,7 @@ Desafio avaliativo da disciplina Desenvolvimento Web I do Curso de <a href="http
 
 <br>
 
-<!-- <h3 align="center">✅ Concluído ✅</h3> -->
+<h3 align="center">✅ Concluído ✅</h3>
 
 <p align="center">
  <a href="#-Projeto">Sobre o projeto</a> •
